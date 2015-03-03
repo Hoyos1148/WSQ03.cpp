@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int num1, num2;
+	cout<<"Este programa suma, resta, multiplica y divide dos numeros"<<endl;
+	cout<<"Dame el primer numero"<<endl;
+	cin>>num1;
+	cout<<"dame el segundo numero"<<endl;
+	cin>>num2;
+	cout<<"la suma de los numeros es: "<< num1+num2<<endl;
+	cout<<"la resta de los numeros es: "<< num1-num2<<endl;
+	cout<<"la multiplicacion de los numeros es: "<< num1*num2<<endl;
+	cout<<"la division de los numeros es: "<< num1/num2<<endl;
+	cout<<"el residuo de la division de los numeros es: "<< num1%num2<<endl;
+}
